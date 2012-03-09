@@ -71,7 +71,7 @@ var expectedRespCount;
 Ext.onReady(function() {
 	// set the proxy url for corss-domain calls
 	OpenLayers.ProxyHost= function(url) {
-		return "/opengeo.geoext/ApacheProxyServlet?url=" + url;
+		return "/geoext.github/ApacheProxyServlet?url=" + url;
     };
 	// set the proxy url for corss-domain calls
 	//OpenLayers.ProxyHost= "/opengeo.geoext/ApacheProxyServlet?url=";	    
@@ -766,8 +766,8 @@ function initializeLayout() {
     	        ],
     	        [
     	            1,
-    	            "http://gouf:6080/arcgis/services/wps.regression/advanced_tbx/GPServer/WPSServer",
-    	            "http://gouf:6080/arcgis/services/wps.regression/advanced_tbx/GPServer/WPSServer?request=GetCapabilities&service=WPS&version=1.0.0"
+    	            "http://gouf:6080/arcgis/services/wps.regression/advanced/GPServer/WPSServer",
+    	            "http://gouf:6080/arcgis/services/wps.regression/advanced/GPServer/WPSServer?request=GetCapabilities&service=WPS&version=1.0.0"
     	        ],
     	        [
  	            	2,
